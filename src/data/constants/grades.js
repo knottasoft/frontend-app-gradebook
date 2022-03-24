@@ -1,18 +1,18 @@
 import { StrictDict } from 'utils';
 
-const EMAIL_HEADING = 'Email';
-const TOTAL_COURSE_GRADE_HEADING = 'Total Grade (%)';
-const USERNAME_HEADING = 'Username';
+const EMAIL_HEADING = 'Почта';
+const TOTAL_COURSE_GRADE_HEADING = 'Итоговая оценка (%)';
+const USERNAME_HEADING = 'Имя пользователя';
 
 const GradeFormats = StrictDict({
-  absolute: 'absolute',
-  percent: 'percent',
+  absolute: 'абсолютное значение',
+  percent: 'процент',
 });
 
 const Headings = StrictDict({
-  email: 'Email',
-  totalGrade: 'Total Grade (%)',
-  username: 'Username',
+  email: 'Почта',
+  totalGrade: 'Итоговая оценка (%)',
+  username: 'Имя пользователя',
 });
 
 export {
