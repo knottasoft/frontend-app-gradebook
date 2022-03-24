@@ -3,67 +3,67 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   assignments: {
     id: 'gradebook.GradebookFilters.assignmentsFilterLabel',
-    defaultMessage: 'Assignments',
+    defaultMessage: 'Задания',
     description: 'Assignment filter group label in Gradebook Filters',
   },
   overallGrade: {
     id: 'gradebook.GradebookFilters.overallGradeFilterLabel',
-    defaultMessage: 'Overall Grade',
+    defaultMessage: 'Общая оценка',
     description: 'Overall Grade filter group label in Gradebook Filters',
   },
   studentGroups: {
     id: 'gradebook.GradebookFilters.studentGroupsFilterLabel',
-    defaultMessage: 'Student Groups',
+    defaultMessage: 'Студенческие группы',
     description: 'Student Groups filter group label in Gradebook Filters',
   },
   includeCourseTeamMembers: {
     id: 'gradebook.GradebookFilters.includeCourseTeamMembersFilterLabel',
-    defaultMessage: 'Include Course Team Members',
+    defaultMessage: 'Включить членов команды курса',
     description: 'Include Course Team Members filter label in Gradebook Filters',
   },
   assignment: {
     id: 'gradebook.GradebookFilters.assignmentFilterLabel',
-    defaultMessage: 'Assignment',
+    defaultMessage: 'Задание',
     description: 'Assignment filter select label in Gradebook Filters',
   },
   assignmentTypes: {
     id: 'gradebook.GradebookFilters.assignmentTypesLabel',
-    defaultMessage: 'Assignment Types',
+    defaultMessage: 'Типы заданий',
     description: 'Assignment Types filter select label in Gradebook Filters',
   },
   maxGrade: {
     id: 'gradebook.GradebookFilters.maxGradeFilterLabel',
-    defaultMessage: 'Max Grade',
+    defaultMessage: 'Максимальная оценка',
     description: 'Max-grade filter select label in Gradebook Filters',
   },
   minGrade: {
     id: 'gradebook.GradebookFilters.minGradeFilterLabel',
-    defaultMessage: 'Min Grade',
+    defaultMessage: 'Минимальная оценка',
     description: 'Min-grade filter select label in Gradebook Filters',
   },
   cohorts: {
     id: 'gradebook.GradebookFilters.cohorts',
-    defaultMessage: 'Cohorts',
+    defaultMessage: 'Группы',
     description: 'Cohorts filter select label in Gradebook Filters',
   },
   cohortAll: {
     id: 'gradebook.GradebookFilters.cohortsAll',
-    defaultMessage: 'Cohort-All',
+    defaultMessage: 'Группа-Все',
     description: 'Cohorts filter select default in Gradebook Filters',
   },
   tracks: {
     id: 'gradebook.GradebookFilters.tracks',
-    defaultMessage: 'Tracks',
+    defaultMessage: 'Треки',
     description: 'Tracks filter select label in Gradebook Filters',
   },
   trackAll: {
     id: 'gradebook.GradebookFilters.trackAll',
-    defaultMessage: 'Track-All',
+    defaultMessage: 'Трек-Все',
     description: 'Tracks filter select default in Gradebook Filters',
   },
   closeFilters: {
     id: 'gradebook.GradebookFilters.closeFilters',
-    defaultMessage: 'Close Filters',
+    defaultMessage: 'Закрыть фильтры',
     description: 'Button label for Close button in Gradebook Filters',
   },
 });
