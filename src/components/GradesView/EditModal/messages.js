@@ -3,47 +3,47 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   assignmentHeader: {
     id: 'gradebook.GradesView.EditModal.headers.assignment',
-    defaultMessage: 'Assignment',
+    defaultMessage: 'Задание',
     description: 'Edit Modal Assignment header',
   },
   currentGradeHeader: {
     id: 'gradebook.GradesView.EditModal.headers.currentGrade',
-    defaultMessage: 'Current Grade',
+    defaultMessage: 'Текущая оценка',
     description: 'Edit Modal Current Grade header',
   },
   originalGradeHeader: {
     id: 'gradebook.GradesView.EditModal.headers.originalGrade',
-    defaultMessage: 'Original Grade',
+    defaultMessage: 'Первоначальная оценка',
     description: 'Edit Modal Original Grade header',
   },
   studentHeader: {
     id: 'gradebook.GradesView.EditModal.headers.student',
-    defaultMessage: 'Student',
+    defaultMessage: 'Студент',
     description: 'Edit Modal Student header',
   },
   title: {
     id: 'gradebook.GradesView.EditModal.title',
-    defaultMessage: 'Edit Grades',
+    defaultMessage: 'Редактировать оценки',
     description: 'Edit Modal title',
   },
   closeText: {
     id: 'gradebook.GradesView.EditModal.closeText',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Отменить',
     description: 'Edit Modal close button text',
   },
   visibility: {
     id: 'gradebook.GradesView.EditModal.contactSupport',
-    defaultMessage: 'Showing most recent actions (max 5). To see more, please contact support',
+    defaultMessage: 'Показывать последние действия (не более 5). Чтобы увидеть больше, обратитесь в службу поддержки',
     description: 'Edit Modal visibility hint message',
   },
   saveVisibility: {
     id: 'gradebook.GradesView.EditModal.saveVisibility',
-    defaultMessage: 'Note: Once you save, your changes will be visible to students.',
+    defaultMessage: 'Примечание: После сохранения ваши изменения будут видны студентам.',
     description: 'Edit Modal saved changes effect hint',
   },
   saveGrade: {
     id: 'gradebook.GradesView.EditModal.saveGrade',
-    defaultMessage: 'Save Grades',
+    defaultMessage: 'Сохранить оценки',
     description: 'Edit Modal Save button label',
   },
 });
