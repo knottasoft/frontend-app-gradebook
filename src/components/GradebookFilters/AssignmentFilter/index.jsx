@@ -39,7 +39,7 @@ export class AssignmentFilter extends React.Component {
       </option>
     );
     return ([
-      <option key="0" value="">All</option>,
+      <option key="0" value="">Все</option>,
       ...this.props.assignmentFilterOptions.map(mapper),
     ]);
   }
