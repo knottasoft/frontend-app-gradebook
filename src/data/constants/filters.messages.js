@@ -13,7 +13,7 @@ const messages = defineMessages({
   },
   assignmentType: {
     id: 'gradebook.GradesTab.FilterBadges.assignmentType',
-    defaultMessage: 'Тип задания,
+    defaultMessage: 'Тип задания',
     description: 'A label describing the notification under the "Edit Filters" button that shows by which of the course\'s assignment types the view is being filtered.',
   },
   cohort: {
