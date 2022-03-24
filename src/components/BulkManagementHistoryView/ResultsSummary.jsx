@@ -20,7 +20,7 @@ const ResultsSummary = ({
 }) => (
   <Hyperlink
     href={lms.urls.bulkGradesUrlByRow(rowId)}
-    destination="www.edx.org"
+    destination="copp26.ru"
     target="_blank"
     rel="noopener noreferrer"
     showLaunchIcon={false}
