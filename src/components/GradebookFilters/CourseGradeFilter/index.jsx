@@ -67,7 +67,7 @@ export class CourseGradeFilter extends React.Component {
             variant="outline-secondary"
             onClick={this.handleApplyClick}
           >
-            Apply
+            Применить
           </Button>
         </div>
       </>
