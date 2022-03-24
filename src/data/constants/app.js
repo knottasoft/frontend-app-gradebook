@@ -33,25 +33,25 @@ export const localFilterKeys = StrictDict({
 export const bulkManagementColumns = [
   {
     key: 'filename',
-    label: 'Gradebook',
+    label: 'Журнал успеваемости',
     columnSortable: false,
     width: 'col-5',
   },
   {
     key: 'resultsSummary',
-    label: 'Download Summary',
+    label: 'Загрузить сводку',
     columnSortable: false,
     width: 'col',
   },
   {
     key: 'user',
-    label: 'Who',
+    label: 'Кто',
     columnSortable: false,
     width: 'col-1',
   },
   {
     key: 'timeUploaded',
-    label: 'When',
+    label: 'Когда',
     columnSortable: false,
     width: 'col',
   },
@@ -71,13 +71,13 @@ export const gradeOverrideHistoryColumns = StrictDict({
  */
 export const messages = StrictDict({
   BulkManagementTab: StrictDict({
-    csvUploadLabel: 'Upload Grade CSV',
-    heading: 'Use this feature by downloading a CSV for bulk management, overriding grades locally, and coming back here to upload.',
-    importBtnText: 'Import Grades',
-    successDialog: 'CSV processing. File uploads may take several minutes to complete.',
+    csvUploadLabel: 'Загрузите CSV с оценками',
+    heading: 'Эта функция используется для загрузки CSV для массового управления, изменения оценок локально и последующей загрузки сюда.',
+    importBtnText: 'Импортировать оценки',
+    successDialog: 'Обработка CSV. Загрузка файлов может занять несколько минут.',
     hints: [
-      'Results appear in the table below.',
-      'Grade processing may take a few seconds.',
+      'Результаты представлены в таблице ниже.',
+      'Обработка оценки может занять несколько секунд.',
     ],
   }),
 });
