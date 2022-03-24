@@ -28,7 +28,7 @@ export class AssignmentTypeFilter extends React.Component {
       <option key={entry} value={entry}>{entry}</option>
     );
     return [
-      <option key="0" value="">All</option>,
+      <option key="0" value="">Все</option>,
       ...this.props.assignmentTypes.map(mapper),
     ];
   }
