@@ -33,8 +33,9 @@ export class GradebookTable extends React.Component {
     let label;
     if (heading === Headings.totalGrade) {
       label = <LabelReplacements.TotalGradeLabelReplacement />;
-    } else if (heading === Headings.username) {
-      label = <LabelReplacements.UsernameLabelReplacement />;
+      // Ticket PLPE-15
+      // } else if (heading === Headings.username) {
+      //   label = <LabelReplacements.UsernameLabelReplacement />;
     } else if (heading === Headings.email) {
       label = <FormattedMessage {...messages.emailHeading} />;
     } else {
@@ -45,9 +46,10 @@ export class GradebookTable extends React.Component {
 
   mapRows(entry) {
     const dataRow = {
-      [Headings.username]: (
-        <Fields.Username username={entry.username} userKey={entry.external_user_key} />
-      ),
+      // Ticket PLPE-15
+      // [Headings.username]: (
+      //   <Fields.Username username={entry.username} userKey={entry.external_user_key} />
+      // ),
       [Headings.email]: (<Fields.Email email={entry.email} />),
       [Headings.totalGrade]: `${roundGrade(entry.percent * 100)}%`,
     };
