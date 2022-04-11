@@ -22,7 +22,7 @@ export const FilteredUsersLabel = ({
   return (
     <FormattedMessage
       id="gradebook.GradesTab.usersVisibilityLabel"
-      defaultMessage="Showing {filteredUsers} of {totalUsers} total learners"
+      defaultMessage="{filteredUsers} из {totalUsers}"
       description="Users visibility label"
       values={{
         filteredUsers: bold(filteredUsersCount),
