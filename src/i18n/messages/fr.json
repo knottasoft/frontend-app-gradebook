@@ -35,7 +35,7 @@
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Date",
   "gradebook.GradesView.EditModal.Overrides.graderHeader": "Correcteur",
   "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Motif",
-  "gradebook.GradesTab.usersVisibilityLabel'": "Showing {filteredUsers} of {totalUsers} total learners",
+  "gradebook.GradesTab.usersVisibilityLabel": "Showing {filteredUsers} of {totalUsers} total learners",
   "gradebook.GradesView.editFilterLabel": "Editer les filtres",
   "gradebook.GradesView.table.headings.email": "Email",
   "gradebook.GradesView.table.headings.totalGrade": "Note totale (%)",

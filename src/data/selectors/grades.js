@@ -109,8 +109,9 @@ export const headingMapper = (category, label = 'All') => {
 
   return (entry) => (
     entry
-      ? [username, email, ...filteredLabels(entry), totalGrade]
-      : []
+        // Ticket PLPE-15
+        ? [email, ...filteredLabels(entry), totalGrade] // ? [username, email, ...filteredLabels(entry), totalGrade]
+        : []
   );
 };
 

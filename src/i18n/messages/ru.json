@@ -35,7 +35,7 @@
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Дата",
   "gradebook.GradesView.EditModal.Overrides.graderHeader": "Градация",
   "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Причина",
-  "gradebook.GradesTab.usersVisibilityLabel'": "{filteredUsers} из {totalUsers} учащихся",
+  "gradebook.GradesTab.usersVisibilityLabel": "{filteredUsers} из {totalUsers} учащихся",
   "gradebook.GradesView.editFilterLabel": "Редактировать фильтры",
   "gradebook.GradesView.table.headings.email": "Электронная почта",
   "gradebook.GradesView.table.headings.totalGrade": "Итоговая оценка (%)",
